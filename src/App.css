@@ -1,8 +1,8 @@
 #root {
-    max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    max-width: 1280px;
 }
 
 .link-logo {
@@ -74,6 +74,58 @@
 .education-item .highlight {
     font-weight: 500;
     color: #444;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-tags .tag {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.project-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    width: 100%;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+footer .footer-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .read-the-docs {
