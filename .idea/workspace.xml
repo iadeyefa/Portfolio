@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="718d71e1-4e84-408d-991a-8f4da4ea8d51" name="Changes" comment="Update App.cs" />
+    <list default="true" id="718d71e1-4e84-408d-991a-8f4da4ea8d51" name="Changes" comment="Update body margins">
+      <change afterPath="$PROJECT_DIR$/src/assets/profile.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BioContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BioContent.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +73,7 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +107,7 @@
       <workItem from="1766113504277" duration="78000" />
       <workItem from="1766196321932" duration="756000" />
       <workItem from="1766199101109" duration="4608000" />
-      <workItem from="1766275078861" duration="452000" />
+      <workItem from="1766275078861" duration="3667000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -167,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766275123307</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update body margins">
+      <option name="closed" value="true" />
+      <created>1766275758484</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1766275758484</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +195,7 @@
     <MESSAGE value="Add projects to BioContent.tsx and implement styling" />
     <MESSAGE value="Adjust footer" />
     <MESSAGE value="Update App.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update App.cs" />
+    <MESSAGE value="Update body margins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update body margins" />
   </component>
 </project>

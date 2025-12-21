@@ -3,6 +3,7 @@ import linkedinLogo from "../assets/linkedin.png";
 import educationLogo from "../assets/education.png";
 import skillsLogo from "../assets/skills.png";
 import projectsLogo from "../assets/projects.svg";
+import profile from "../assets/profile.jpeg";
 
 export default function BioContent() {
     const projects = [
@@ -47,17 +48,25 @@ export default function BioContent() {
         <div className="tab-content">
             <div id="bio" className="tab-content active">
                 <div className="body">
+                    <div className="body-header">
+                        <h1>Ife Adeyefa</h1>
 
-                    <a href="https://github.com/iadeyefa" target="_blank">
-                        <img src={githubLogo} className="link-logo" alt="GitHub logo"/>
-                    </a>
-                    <a href="https://www.linkedin.com/in/ife-adeyefa-9b7577300/" target="_blank">
-                        <img src={linkedinLogo} className="link-logo" alt="LinkedIn logo"/>
-                    </a>
+                        <div>
+                            <img src={profile} className="profile" alt="Profile Picture"/>
 
+                            <a href="https://github.com/iadeyefa" target="_blank">
+                                <img src={githubLogo} className="link-logo" alt="GitHub logo"/>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ife-adeyefa-9b7577300/" target="_blank">
+                                <img src={linkedinLogo} className="link-logo" alt="LinkedIn logo"/>
+                            </a>
+                        </div>
+
+                    </div>
                 </div>
 
-                <h1>Ife Adeyefa</h1>
+
+
 
                 <div className="body" title="education">
                     <div className="body-header">
@@ -70,10 +79,9 @@ export default function BioContent() {
                     <div className="education-item">
 
                         <h4>University of Florida</h4>
-                        <p>Bachelor of Science in Computer Science</p>
+                        <p className="highlight">Bachelor of Science in Computer Science</p>
                         <p><span className="highlight">Graduation:</span> Expected May 2026</p>
-                        <p><span className="highlight">GPA:</span> 3.84</p>
-                        <p><span className="highlight">Dean's List</span></p>
+                        <p><span className="highlight">GPA:</span> 3.83</p>
                         <p><span className="highlight">Relavant Coursework:</span> Data Structures and Algorithms, Operating
                             Systems, Programming Language Concepts,
                             Databases, Computer Organization, Engineering Statistics</p>
