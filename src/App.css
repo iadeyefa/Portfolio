@@ -8,6 +8,10 @@
     margin: 20px auto;
 }
 
+.tab-content {
+    height: 800px;
+}
+
 .tab-button {
     margin: auto 10px;
     background-color: #FFE3E0;

@@ -2,7 +2,7 @@ import githubLogo from "../assets/github.svg";
 import linkedinLogo from "../assets/linkedin.png";
 import educationLogo from "../assets/education.png";
 import skillsLogo from "../assets/skills.png";
-import projectsLogo from "../assets/projects.svg";
+import projectsLogo from "../assets/projects.png";
 import profile from "../assets/profile.jpeg";
 
 export default function BioContent() {
@@ -83,8 +83,7 @@ export default function BioContent() {
                         <p><span className="highlight">Graduation:</span> Expected May 2026</p>
                         <p><span className="highlight">GPA:</span> 3.83</p>
                         <p><span className="highlight">Relavant Coursework:</span> Data Structures and Algorithms, Operating
-                            Systems, Programming Language Concepts,
-                            Databases, Computer Organization, Engineering Statistics</p>
+                            Systems, Programming Language Concepts, Databases, Computer Organization, Engineering Statistics</p>
 
                     </div>
 
