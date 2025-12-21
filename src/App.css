@@ -6,6 +6,9 @@
 
 .tabs {
     margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .tab-content {
@@ -127,6 +130,46 @@
     color: #a6a6a6;
     line-height: 1.6;
     margin: 0;
+}
+
+.links-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+    padding-top: 8px;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FFE3E0;
+    border: 2px solid #F38375;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 200ms;
+}
+
+.dropdown-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.dropdown-item:hover {
+    background-color: #FBC3BC;
 }
 
 .footer {

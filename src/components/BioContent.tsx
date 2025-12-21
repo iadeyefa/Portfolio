@@ -1,5 +1,3 @@
-import githubLogo from "../assets/github.svg";
-import linkedinLogo from "../assets/linkedin.png";
 import educationLogo from "../assets/education.png";
 import skillsLogo from "../assets/skills.png";
 import projectsLogo from "../assets/projects.png";
@@ -53,13 +51,6 @@ export default function BioContent() {
 
                         <div>
                             <img src={profile} className="profile" alt="Profile Picture"/>
-
-                            <a href="https://github.com/iadeyefa" target="_blank">
-                                <img src={githubLogo} className="link-logo" alt="GitHub logo"/>
-                            </a>
-                            <a href="https://www.linkedin.com/in/ife-adeyefa-9b7577300/" target="_blank">
-                                <img src={linkedinLogo} className="link-logo" alt="LinkedIn logo"/>
-                            </a>
                         </div>
 
                     </div>
