@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="718d71e1-4e84-408d-991a-8f4da4ea8d51" name="Changes" comment="Adjust footer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-    </list>
+    <list default="true" id="718d71e1-4e84-408d-991a-8f4da4ea8d51" name="Changes" comment="Update App.cs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +101,7 @@
       <workItem from="1766113504277" duration="78000" />
       <workItem from="1766196321932" duration="756000" />
       <workItem from="1766199101109" duration="4608000" />
+      <workItem from="1766275078861" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -161,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766203097832</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update App.cs">
+      <option name="closed" value="true" />
+      <created>1766275123307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766275123307</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +180,7 @@
     <MESSAGE value="Commit .gitignore" />
     <MESSAGE value="Add projects to BioContent.tsx and implement styling" />
     <MESSAGE value="Adjust footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjust footer" />
+    <MESSAGE value="Update App.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update App.cs" />
   </component>
 </project>
