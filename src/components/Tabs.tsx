@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import BioContent from "./BioContent.tsx";
 import ResumeContent from "./ResumeContent.tsx"
 
@@ -13,6 +13,14 @@ export default function Tabs() {
         { name: 'GitHub', url: "https://github.com/iadeyefa", logo: githubLogo },
         { name: 'LinkedIn', url: "https://www.linkedin.com/in/ife-adeyefa-9b7577300/", logo: linkedinLogo },
     ];
+
+    useEffect(() => {
+        const tabNames: Record<string, string> = {
+            bio: 'Ife Adeyefa - Bio',
+            resume: 'Ife Adeyefa - Resume'
+        };
+        document.title = tabNames[activeTab] || 'Ife Adeyefa';
+    }, [activeTab]);
 
     return (
         <div>
