@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="718d71e1-4e84-408d-991a-8f4da4ea8d51" name="Changes" comment="Change resume file location">
-      <change afterPath="$PROJECT_DIR$/src/assets/resumeLogo.png" afterDir="false" />
+    <list default="true" id="718d71e1-4e84-408d-991a-8f4da4ea8d51" name="Changes" comment="Removed resume tab with pdf viewer and added additional link on Bio tab to resume">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BioContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BioContent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResumeContent.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +117,7 @@
       <workItem from="1766199101109" duration="4608000" />
       <workItem from="1766275078861" duration="8150000" />
       <workItem from="1766521726250" duration="2820000" />
-      <workItem from="1766605941062" duration="3641000" />
+      <workItem from="1766605941062" duration="5757000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -258,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766609006310</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Removed resume tab with pdf viewer and added additional link on Bio tab to resume">
+      <option name="closed" value="true" />
+      <created>1766611888825</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1766611888825</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +286,7 @@
     <MESSAGE value="Change link icons styling" />
     <MESSAGE value="Update footer styling" />
     <MESSAGE value="Change resume file location" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change resume file location" />
+    <MESSAGE value="Removed resume tab with pdf viewer and added additional link on Bio tab to resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed resume tab with pdf viewer and added additional link on Bio tab to resume" />
   </component>
 </project>

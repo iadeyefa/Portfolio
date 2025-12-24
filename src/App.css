@@ -2,6 +2,7 @@
     margin: 0 auto;
     text-align: center;
     max-width: 1280px;
+    font-family: Inter;
 }
 
 .tabs {
@@ -47,7 +48,7 @@
     max-width: 600px;
     padding: 24px;
     background-color: #191716;
-    border: #EF6351 3px solid;
+    border-top: #EF6351 3px solid;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     margin: 0 auto 20px;
     text-align: left;
@@ -56,7 +57,7 @@
 .profile {
     border-radius: 50%;
     max-width: 100px;
-
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
 }
 
 .logo {
@@ -65,14 +66,31 @@
 }
 
 .body-header {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+    padding-bottom: 8px;
+}
+
+.name-and-links {
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name-and-links h1 {
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
+}
+
+.name-and-links h4 {
+    font-weight: 400;
+    color: #c2c2c2;
+    margin-top: 0;
 }
 
 .bio-links {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .body h2 {
@@ -162,7 +180,13 @@
     border: 2px solid #F38375;
     border-radius: 8px;
     text-decoration: none;
-    transition: background-color 200ms;
+    transition: background-color 200ms, transform 150ms;
+}
+
+.dropdown-item:hover {
+    background-color: #FFE3E0;
+    color: #FBC3BC;
+    transform: scale(1.15);
 }
 
 .dropdown-logo {

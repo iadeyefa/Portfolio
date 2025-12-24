@@ -52,11 +52,17 @@ export default function BioContent() {
 
     return (
         <div className="tab-content">
+
             <div id="bio" className="tab-content active">
+
                 <div className="body">
+
                     <div className="body-header">
-                        <div className="body-header">
+
+                        <div className="name-and-links">
                             <h1>Ife Adeyefa</h1>
+
+                            <h4>Computer Science @ University of Florida from Raleigh, NC</h4>
 
                             <div className="bio-links">
                                 <a
@@ -91,8 +97,6 @@ export default function BioContent() {
                 </div>
 
 
-
-
                 <div className="body" title="education">
                     <div className="body-header">
                         <h3>Education</h3>
@@ -113,6 +117,7 @@ export default function BioContent() {
                     </div>
 
                 </div>
+
 
                 <div className="body" title="skills">
                     <div className="body-header">
@@ -136,6 +141,7 @@ export default function BioContent() {
                     </div>
 
                 </div>
+
 
                 <div className="body" title="projects">
                     <div className="body-header">
@@ -161,7 +167,10 @@ export default function BioContent() {
                     </div>
 
                 </div>
+
+
             </div>
+
         </div>
     )
 }
