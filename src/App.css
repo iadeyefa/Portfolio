@@ -71,6 +71,10 @@
     gap: 10px;
 }
 
+.bio-links {
+    display: flex;
+}
+
 .body h2 {
     font-size: 24px;
     font-weight: 700;

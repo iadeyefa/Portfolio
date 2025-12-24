@@ -2,8 +2,16 @@ import educationLogo from "../assets/education.png";
 import skillsLogo from "../assets/skills.png";
 import projectsLogo from "../assets/projects.png";
 import profile from "../assets/profile.jpeg";
+import githubLogo from "../assets/github.svg";
+import linkedinLogo from "../assets/linkedin.png";
+import resumeLogo from "../assets/resumeLogo.png";
 
 export default function BioContent() {
+    const links = [
+        { name: 'GitHub', url: "https://github.com/iadeyefa", logo: githubLogo },
+        { name: 'LinkedIn', url: "https://www.linkedin.com/in/ife-adeyefa-9b7577300/", logo: linkedinLogo },
+    ];
+
     const projects = [
         {
             title: "Intelligent Traffic Management Simulator",
@@ -47,7 +55,33 @@ export default function BioContent() {
             <div id="bio" className="tab-content active">
                 <div className="body">
                     <div className="body-header">
-                        <h1>Ife Adeyefa</h1>
+                        <div className="body-header">
+                            <h1>Ife Adeyefa</h1>
+
+                            <div className="bio-links">
+                                <a
+                                    href="/resume.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="dropdown-item"
+                                >
+                                    <img src={resumeLogo} alt="Resume logo" className="dropdown-logo"/>
+                                </a>
+
+                                {links.map((link) => (
+                                    <a
+                                        key={link.name}
+                                        href={link.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="dropdown-item"
+                                    >
+                                        <img src={link.logo} alt={link.name} className="dropdown-logo" />
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
+
 
                         <div>
                             <img src={profile} className="profile" alt="Profile Picture"/>

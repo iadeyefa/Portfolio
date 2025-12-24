@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import BioContent from "./BioContent.tsx";
-import ResumeContent from "./ResumeContent.tsx"
 
 import githubLogo from "../assets/github.svg";
 import linkedinLogo from "../assets/linkedin.png";
+import resumeLogo from "../assets/resumeLogo.png";
 
 export default function Tabs() {
     const [activeTab, setActiveTab] = useState('bio');
@@ -17,7 +17,6 @@ export default function Tabs() {
     useEffect(() => {
         const tabNames: Record<string, string> = {
             bio: 'Ife Adeyefa - Bio',
-            resume: 'Ife Adeyefa - Resume'
         };
         document.title = tabNames[activeTab] || 'Ife Adeyefa';
     }, [activeTab]);
@@ -26,7 +25,6 @@ export default function Tabs() {
         <div>
             <div className="tabs">
                 <button className="tab-button" onClick={() => setActiveTab('bio')}>Bio</button>
-                <button className="tab-button" onClick={() => setActiveTab('resume')}>Resume</button>
 
                 <div className="links-dropdown" onMouseLeave={() => setLinksOpen(false)}>
                     <button
@@ -38,6 +36,15 @@ export default function Tabs() {
 
                     {linksOpen && (
                         <div className="dropdown-menu" onMouseEnter={() => setLinksOpen(true)}>
+                            <a
+                                href="/resume.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="dropdown-item"
+                            >
+                                <img src={resumeLogo} alt="Resume logo" className="dropdown-logo"/>
+                            </a>
+
                             {links.map((link) => (
                                 <a
                                     key={link.name}
@@ -55,7 +62,6 @@ export default function Tabs() {
             </div>
 
             {activeTab === 'bio' && <BioContent />}
-            {activeTab === 'resume' && <ResumeContent />}
         </div>
     );
 }
