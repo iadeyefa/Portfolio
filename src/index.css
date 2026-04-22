@@ -1,68 +1,68 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Fraunces", Georgia, serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #2b211d;
+  background:
+    radial-gradient(circle at top, rgba(248, 222, 214, 0.72), transparent 38%),
+    linear-gradient(180deg, #fffaf7 0%, #f7ede7 100%);
+  --accent: #e97d64;
+  --accent-deep: #8f4e3f;
+  --panel-bg: rgba(255, 252, 250, 0.92);
+  --surface-soft: #f8e8e2;
+  --surface-accent: #f5d8ce;
+  --border-subtle: rgba(122, 76, 60, 0.14);
+  --border-strong: rgba(173, 100, 78, 0.34);
+  --text-strong: #201713;
+  --text-primary: #3a2b25;
+  --text-secondary: #63504a;
+  --text-muted: #77635c;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
+  background: inherit;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-weight: 700;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+#root {
+  width: 100%;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 2.55rem;
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+
+  body {
+    font-size: 0.98rem;
   }
 }

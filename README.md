@@ -11,7 +11,7 @@ Visit the deployed site: **[https://ife-adeyefa.vercel.app/](https://ife-adeyefa
 - React - UI library
 - TypeScript - Type-safe JavaScript
 - Vite - Fast build tool and dev server
-- Tailwind CSS - Utility-first CSS framework
+- Custom CSS
 
 ## Getting Started
 
@@ -39,9 +39,7 @@ npm run preview
 ```
 src/
 ├── components/
-│   ├── BioContent.tsx      # Bio tab with projects and skills
-│   ├── ResumeContent.tsx   # Resume tab with PDF viewer
-│   └── Tabs.tsx            # Tab navigation logic
+│   └── BioContent.tsx      # Main portfolio content
 ├── assets/                 # Images and icons
 ├── App.tsx                 # Main app component
 ├── App.css                 # Global styles
